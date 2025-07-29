@@ -1,0 +1,76 @@
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  border: solid rgb(0, 29, 6) 1px;
+padding-bottom: 100px;
+display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ flex-direction: row;
+background-color: #002c04;
+box-shadow: 10px 10px 50px rgb(0, 8, 3);
+border-radius: 200px;
+}
+
+.dice {
+width: 200px;
+}
+
+body {
+  background-color: #003605;
+}
+
+h1 {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, cursive;
+  text-shadow: 10px 8px 8px #000000;
+  font-size: 8rem;
+  color: #ffffff;
+  width: 100%;
+  margin-bottom: -20px;
+}
+
+p {
+  font-size: 2rem;
+  color: #000000;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+button{
+margin-left: 100%;
+margin-right: 100%;
+margin-top: 40px;
+background-color: #00410b;
+border: solid rgb(6, 54, 0) 2px;
+color: white;
+border-radius: 20px;
+padding: 5px;
+padding-left: 20px;
+padding-right: 20px;
+box-shadow: 2px 1px 9px black;
+}
+.scoreboard{
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 224, 224);
+  width: 200px;
+  height: 100px;
+  box-shadow: 4px 4px 8px;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+.scoreboard p{
+  display: inline-block;
+  margin-top: 1px;
+  margin-bottom: -1px;
+}
+.winnerAlert{
+  font-size: 17px;
+  width: 100%;
+}
